@@ -1,0 +1,33 @@
+﻿-Boolean values are the two constant objects False and True.
+A Boolean value is either true or false
+In Python, the two Boolean values are True and False. The Python type is bool
+For example:
+    + 5 == (3 + 2)    5 == 6
+    >>> true       >>> false
+    + n = 3
+    print(1, n==3 )
+    n % 2 == 0 or n % 3 == 0
+    + n="học"
+      m="lười"
+      print("m=n")
+       >>> false
+
+-Flowchart is essentially the Python programming language in visual form. 
+You write a program by setting up a flowchart. 
+When you run the flowchart, the software compiles to python byte-code, 
+so that you can easily import modules you write in Flowchart Python into standard Python programs
+paint :
+
+
+
+
+-nested conditionals is described when a conditional is within another conditional
+for example:
+if x < y:
+    print("smt")
+else:
+    if x > y:
+        print("not smt")
+    else:
+        print("not ant")
+
