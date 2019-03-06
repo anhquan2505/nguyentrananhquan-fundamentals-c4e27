@@ -20,7 +20,6 @@ paint :
 
 
 
-
 -nested conditionals is described when a conditional is within another conditional
 for example:
 if x < y:
