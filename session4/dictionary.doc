@@ -1,0 +1,58 @@
+# person = {'name':'Nguyen van a','age':21,'address':'ha noi'}
+# addr= person.get('address','')
+# if 'address' in person:
+
+#     addr=person['address']
+# print(addr)
+
+
+
+# update
+dic= {'mouse':'chuot','computer':'may tinh','keyboard':'ban phim'}
+
+
+while True:
+    word=str(input('search word or choose exit or quit '))
+    dich= dic.get(word)
+    if word in dic:
+        print(dich)
+    elif word== 'exit'or 'quit':
+        print('thank you')
+        break
+    
+        
+    else: 
+        print("don't have this word")
+        
+
+# duyet theo key
+for i in dic:
+    print(i)
+# duyet theo value
+for i in dic.value():
+    print(i)
+# duyet theo key-value
+for i,v in dic.item:
+    print(i,':',v)   
+
+# tap_nguoi=[]
+# nguoi_1={
+#     "name":'nguyen van a',
+#     'age':12,
+#     'add':'hanoi',
+#     'sdt':['123','456']
+# }
+# tap_nguoi.append(nguoi_1)
+# nguoi_2={
+#     "name":'nguyen van a',
+#     'age':12,
+#     'add':'hanoi',
+#     'sdt':['12343','45645']
+# }
+# tap_nguoi.append(nguoi_2)
+# print()
+# for i in dic.tap_nguoi:
+
+    # tuan sau:tai sao phai dung dict trg thuc te
+   
+ 
