@@ -45,7 +45,7 @@ def user(username):
             "age": "đ tính đc",
             "school": "voo hox",
             "notion": "trẻ trâu",
-            "story":"known boss Quân"}
+            "story":"known boss Quân. đặc biệt ảo tưởng sức mạnh cứ nghĩ boss là osin của mình(boss said:osin clmm :) "}
     }
     if username not in users:
         return "user profile not found"
