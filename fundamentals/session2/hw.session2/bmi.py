@@ -13,16 +13,16 @@
 
 # bmi = z = float(input("can nang cua ban (kg): ")) / (x*x)
 
-# if bmi < 16 : 
-#     print ("chỉ số bmi là: ","%.2f" % bmi,"  ==> Severely underweight")
-# elif bmi < 18.5 and bmi >= 16 : 
-#         print ("chỉ số bmi là: ","%.2f" % bmi,"  ==> Underweight")
-# elif bmi < 25 and bmi >= 18.5  :
-#         print ("chỉ số bmi là: ","%.2f" % bmi,"  ==> Normal")
-# elif bmi < 30 and bmi >= 25 : 
-#     print ("chỉ số bmi là: ","%.2f" % bmi,"  ==> Overweight")
-# else: 
-#     print ("chỉ số bmi là: ","%.2f" % bmi,"  ==> Obese")
+if bmi < 16 : 
+    print ("chỉ số bmi là: ","%.2f" % bmi,"  ==> Severely underweight")
+elif bmi < 18.5 and bmi >= 16 : 
+        print ("chỉ số bmi là: ","%.2f" % bmi,"  ==> Underweight")
+elif bmi < 25 and bmi >= 18.5  :
+        print ("chỉ số bmi là: ","%.2f" % bmi,"  ==> Normal")
+elif bmi < 30 and bmi >= 25 : 
+    print ("chỉ số bmi là: ","%.2f" % bmi,"  ==> Overweight")
+else: 
+    print ("chỉ số bmi là: ","%.2f" % bmi,"  ==> Obese")
 	
 
 
