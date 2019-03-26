@@ -8,7 +8,7 @@ def about_me():
         "age" : 19,
         "school": "HUST",
         "gender":"male"}
-    return render_template("poem.html", me = mes)
+    return render_template("me.html", me = mes)
 # @app.route('/')
 # def index():
 #     return ('bitch thai')
