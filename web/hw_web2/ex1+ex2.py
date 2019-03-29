@@ -6,9 +6,9 @@ client = MongoClient(mongo_uri)
 
 db_demo = client.get_database()
 
-a = db_demo["posts"]
-b = db_demo["customers"]
-customers= b.find()
+post = db_demo["posts"]
+customer = db_demo["customers"]
+customers= customer.find()
 
 post_document = {
     "title" : "Chủ tịch techkids thử lòng học viên và cái kết ",
@@ -17,7 +17,7 @@ post_document = {
     "Tịch cái đcm j suốt ngày tịch \n Dăm ba tk rảnh háng đi thử lòng người khác?? \nChủ tịch mà rảnh như chg m thì công ty nát cmnr :) \n Btw, bố m là chủ tịch techkids đây :)"
 }
 
-a.insert_one(post_document)
+post.insert_one(post_document)
 ref_list=[]
 checked=[]
 ref_count=[]
@@ -36,4 +36,4 @@ pyplot.axis('equal')
 pyplot.title("REFERENCE RATE")
 pyplot.show() 
 
-a.update_one({"title":"09"},{ "$set" :{"author":"đạt xả lín","content":"dăm ba tk gửi bài sớm :))"}})
+post.update_one({"title":"09"},{ "$set" :{"author":"đạt xả lín","content":"dăm ba tk gửi bài sớm :))"}})
